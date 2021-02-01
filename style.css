@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url(//t1.daumcdn.net/tistory_admin/static/font/notokr-regular.woff2)
+      format("woff2"),
+    url(//t1.daumcdn.net/tistory_admin/static/font/notokr-regular.woff)
+      format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url(//t1.daumcdn.net/tistory_admin/static/font/notokr-demilight.woff2)
+      format("woff2"),
+    url(//t1.daumcdn.net/tistory_admin/static/font/notokr-demilight.woff)
+      format("woff");
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Noto Sans";
+  src: url(//t1.daumcdn.net/tistory_admin/static/font/notokr-bold.woff2)
+      format("woff2"),
+    url(//t1.daumcdn.net/tistory_admin/static/font/notokr-bold.woff)
+      format("woff");
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+fieldset,
+img {
+  border: 0 none;
+}
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+input,
+select,
+textarea,
+button {
+  vertical-align: middle;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+body {
+  background: #fff;
+}
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "Noto Sans", sans-serif;
+  color: #666;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  background-color: transparent;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+#tistorytoolbarid {
+  display: none;
+}
+
+/* layout */
+
+.contentWrap {
+  display: flexbox;
+}
