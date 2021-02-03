@@ -139,7 +139,25 @@ var {
 }
 
 /* layout */
+#header .menu {
+  padding: 15px;
+}
 
-.contentWrap {
-  display: flexbox;
+#container {
+  width: 100%;
+}
+#content_sidebar_wrap {
+  display: flex;
+}
+#content {
+  background-color: #f3f5f7;
+  flex-basis: 80%;
+  flex-direction: column;
+  padding: 2px;
+  line-height: 1.5;
+}
+#sidebar {
+  /* margin-left: 50%; */
+  /* align-items: stretch; */
+  flex-basis: 20%;
 }
