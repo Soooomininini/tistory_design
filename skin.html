@@ -28,16 +28,73 @@
       <div class="contentWrap">
         <div id="container">
           <div id="header">
-            <h1>01.블로그 이름</h1>
-            <div class="menu">02. 블로그 메뉴</div>
+            <div class="global-wrap">
+              <h1 class="blog-title">
+                <a href="https://soomingworld.tistory.com/">[##_title_##]</a>
+              </h1>
+              <div class="header-nav">
+                <ul>
+                  <li class="search">
+                    <div class="area_search">
+                      <form
+                        action="#"
+                        method="get"
+                        class="frm_search"
+                        onsubmit="[##_search_onclick_submit_##]"
+                      >
+                        <fieldset>
+                          <legend class="sr-only">검색하기 폼</legend>
+                          <input
+                            type="text"
+                            name="[##_search_name_##]"
+                            value="[##_search_text_##]"
+                            class="search-input"
+                            title="검색하기"
+                            placeholder="Search"
+                          />
+                          <button type="button" class="btn-search">
+                            <i class="fa fa-search fa-lg" id="btnSearch"></i>
+                          </button>
+                        </fieldset>
+                      </form>
+                    </div>
+                  </li>
+                  <li class="taglog">
+                    <a href="[##_taglog_link_##]" title="태그"
+                      ><i class="fa fa-tags fa-lg"></i
+                    ></a>
+                  </li>
+                  <li class="localog">
+                    <a href="[##_location_link_##]" title="위치로그"
+                      ><i class="fa fa-map-marker fa-lg"></i
+                    ></a>
+                  </li>
+                  <li class="guestBook">
+                    <a href="[##_guestBook_link_##" title="방명록"
+                      ><i class="fa fa-book fa-lg"></i
+                    ></a>
+                  </li>
+                  <li class="rss">
+                    <a
+                      href="[##_rss_url_##]"
+                      onclick="window.open(this.href); return false"
+                      title="rss"
+                      ><i class="fa fa-rss fa-lg"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <!--header-nav close-->
+            </div>
+            <!--global wrap close-->
           </div>
           <!--header close-->
           <div id="content_sidebar_wrap">
             <div id="content">
               <div class="searchList">11.검색 결과 리스트</div>
               <div class="searchRplist">12.검색 결과 댓글 리스트</div>
-              <div class="localLog">13.위치 로그</div>
-              <div class="tagLog">14.태그 클라우드</div>
+              <div class="localog">13.위치 로그</div>
+              <div class="taglog">14.태그 클라우드</div>
 
               <div class="guestBook">
                 15.방명록

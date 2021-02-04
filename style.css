@@ -157,7 +157,7 @@ var {
   line-height: 1.5;
 }
 #sidebar {
-  /* margin-left: 50%; */
-  /* align-items: stretch; */
   flex-basis: 20%;
 }
+
+/* header */
