@@ -1,163 +1,78 @@
-@charset "UTF-8";
+@charset "utf-8"
 
-@font-face {
-  font-family: "Noto Sans";
-  src: url(//t1.daumcdn.net/tistory_admin/static/font/notokr-regular.woff2)
-      format("woff2"),
-    url(//t1.daumcdn.net/tistory_admin/static/font/notokr-regular.woff)
-      format("woff");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Noto Sans";
-  src: url(//t1.daumcdn.net/tistory_admin/static/font/notokr-demilight.woff2)
-      format("woff2"),
-    url(//t1.daumcdn.net/tistory_admin/static/font/notokr-demilight.woff)
-      format("woff");
-  font-style: normal;
-  font-weight: 100;
-}
-@font-face {
-  font-family: "Noto Sans";
-  src: url(//t1.daumcdn.net/tistory_admin/static/font/notokr-bold.woff2)
-      format("woff2"),
-    url(//t1.daumcdn.net/tistory_admin/static/font/notokr-bold.woff)
-      format("woff");
-  font-style: normal;
-  font-weight: bold;
-}
-
-/* reset */
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-textarea,
-p,
-blockquote,
-th,
-td,
-input,
-select,
-textarea,
-button {
-  margin: 0;
-  padding: 0;
-  outline: none;
-}
-fieldset,
-img {
-  border: 0 none;
-}
-dl,
-ul,
-ol,
-menu,
-li {
+/* Type Selectors Reset */
+ul,li {
   list-style: none;
 }
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-input,
-select,
-textarea,
-button {
-  vertical-align: middle;
-}
-input::-ms-clear {
-  display: none;
-}
-button {
-  border: 0 none;
-  background-color: transparent;
-  cursor: pointer;
+html {
+  margin: 0;
 }
 body {
-  background: #fff;
-}
-body,
-th,
-td,
-input,
-select,
-textarea,
-button {
-  font-size: 14px;
-  line-height: 1.5;
-  font-family: "Noto Sans", sans-serif;
-  color: #666;
+  margin: 0;
 }
 a {
-  color: #333;
   text-decoration: none;
 }
-a:active,
-a:hover {
-  text-decoration: underline;
-}
-a:active {
-  background-color: transparent;
-}
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-var {
-  font-style: normal;
-  font-weight: normal;
-}
-#tistorytoolbarid {
-  display: none;
+a:visited {
+  text-decoration: none;
 }
 
-/* layout */
-#header .menu {
-  padding: 15px;
-}
-
-#container {
-  width: 100%;
-}
-#content_sidebar_wrap {
-  display: flex;
-}
-#content {
-  background-color: #f3f5f7;
-  flex-basis: 80%;
-  flex-direction: column;
-  padding: 2px;
-  line-height: 1.5;
-}
-#sidebar {
-  flex-basis: 20%;
+/* wrap */
+.wrap {
+  width: 1440px;
+  padding: 50px;
+  border: solid 10px #011936;
+  position: relative;
+  overflow: scroll;
 }
 
 /* header */
+
+#header {
+  height: 120px;
+  width: 80%;
+  background-color: #b5e2fa;
+  padding: 10px;
+}
+
+#header h1 {
+  margin: 0;
+  z-index: 0;
+  color: #011936;
+}
+#header a {
+  text-decoration: none;
+}
+#header a:visited {
+  text-decoration: none;
+  color: #011936;
+}
+#header p {
+  margin-right: 0;
+}
+
+#header .search {
+  width: 100px;
+  margin-right: auto;
+}
+
+/* container */
+.container {
+  display: flex;
+  margin: 0;
+}
+
+/* contents */
+.contents {
+  width: 1140px;
+}
+.contents .contents_header a {
+  text-decoration: none;
+}
+
+/* sidebar */
+.sidebar {
+  width: 300px;
+  height: 800px;
+  border: 2px solid lightsalmon;
+}

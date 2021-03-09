@@ -2,13 +2,13 @@
 
 <skin>
     <information>
-        <name>#1</name> <!--스킨이름-->
+        <name>Soomin#1</name> <!--스킨이름-->
         <version>1.0</version> <!--스킨 버전-->
-        <description></description> <!--스킨에 대한 설명-->
-        <license></license> <!--스킨의 저작권-->
+        <description>첫번째 스킨</description> <!--스킨에 대한 설명-->
+        <license>Soomin Lee</license> <!--스킨의 저작권-->
     </information>
     <author>
-        <name>Soomin</name> <!--제작자 이름-->
+        <name>Sooming</name> <!--제작자 이름-->
         <homepage>http://soomingworld.tistory.com</homepage> <!--제작자 홈페이지-->
         <email>ananan199568@gmail.com</email> <!--제작자 이메일-->
     </author>
