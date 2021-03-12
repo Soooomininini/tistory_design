@@ -45,9 +45,28 @@ a:visited {
   color: #011936;
 }
 
-#header .search {
-  width: 100px;
-  margin-left: auto;
+/* header_container */
+
+.header_container {
+  display: flex;
+}
+.header_container .search {
+  width: 800px;
+  margin-left: 100px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 300px;
+}
+
+.header_container .search input[type="text"] {
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.header_container .search .submit {
+  width: 20px;
+  height: 20px;
 }
 
 /* container */
