@@ -3,8 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <title>[##_title_##]</title>
+    <!-- css link -->
     <link rel="stylesheet" href="./style.css" />
+    <!--js link-->
     <script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script>
+    <!--fontawesome link-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
   </head>
   <body id="[##_body_id_##]">
     <s_t3>
@@ -14,6 +21,10 @@
           <div class="header_container">
             <p>[##_desc_##]</p>
             <div class="search">
+              <div class="social_media">
+                <i class="fab fa-github fa-2x"></i>
+                <i class="far fa-envelope-open fa-2x"></i>
+              </div>
               <s_search>
                 
                 <input
@@ -39,12 +50,14 @@
         </header>
         <div class="container">
           <div class="contents">
-            <h4>Contents</h4>
+           
             <s_article_rep>
               <div class="contents_header">
-                <a href="[##_article_rep_category_link_##]"
-                  ><h6>[##_article_rep_category_##]</h6></a
-                >
+                <div class="article_category">
+                  <a href="[##_article_rep_category_link_##]"
+                    ><h6>[##_article_rep_category_##]</h6></a
+                  >
+                </div>
 
                 <h5>
                   <a href="[##_article_rep_link_##]"
