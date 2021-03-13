@@ -18,6 +18,10 @@ a:visited {
   text-decoration: none;
   color: black;
 }
+a:hover {
+  color: #247ba0;
+  background-color: #f3ffbd;
+}
 
 /* wrap */
 .wrap {
@@ -129,12 +133,19 @@ a:visited {
 }
 
 /* recentPost */
-.recentPost a {
+.recentPost {
+  margin-bottom: 30px;
+}
+.recentPost_article_title a {
   font-size: 1rem;
   color: #011936;
 }
+.recentPost_article_title a:hover {
+  color: #247ba0;
+  background-color: #f3ffbd;
+}
+
 .recentPost_category_related a {
-  text-align: right;
   padding: 10px;
   font-size: 0.5rem;
 }
