@@ -90,7 +90,7 @@ a:visited {
 /* contents */
 
 .contents {
-  width: 1140px;
+  width: 820px;
   background-color: #b5e2fa;
   border: 1px solid #011936;
   padding: 10px;
@@ -120,4 +120,21 @@ a:visited {
   width: 200px;
   height: 800px;
   border: 2px solid #f3ffbd;
+}
+
+/* category */
+
+.notice ul {
+  list-style-position: outside;
+}
+
+/* recentPost */
+.recentPost a {
+  font-size: 1rem;
+  color: #011936;
+}
+.recentPost_category_related a {
+  text-align: right;
+  padding: 10px;
+  font-size: 0.5rem;
 }

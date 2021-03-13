@@ -75,7 +75,7 @@
                         <s_rp_rep>
                           <li id="[##_rp_rep_id_##]">
                             <div class="[##_rp_rep_class_##]">
-                              <span class="image">[##_rp_rep_logo_##]</span>
+                              
                               <span class="name">[##_rp_rep_name_##]</span>
                               <span class="date">[##_rp_rep_date_##]</span>
                               <span class="control">
@@ -103,9 +103,7 @@
                                 <s_rp2_rep>
                                   <li id="[##_rp_rep_id_##]">
                                     <div class="[##_rp_rep_class_##]">
-                                      <span class="image"
-                                        >[##_rp_rep_logo_##]</span
-                                      >
+                                      
                                       <span class="name"
                                         >[##_rp_rep_name_##]</span
                                       >
@@ -216,9 +214,11 @@
                     [##_category_##]
                   </div>
                 </s_sidebar_element>
+                <!-- notice -->
                 <s_sidebar_element>
                   <s_rct_notice>
                     <div class="notice">
+                      <h4>Notice</h4>
                       <ul>
                         <s_rct_notice_rep>
                           <li>
@@ -229,16 +229,20 @@
                     </div>
                   </s_rct_notice>
                 </s_sidebar_element>
+                
+                <!-- recentPost -->
                 <s_sidebar_element>
+                  <h4>Recent Post</h4> 
                   <s_rctps_rep>
                     <div class="recentPost">
+                      
                       <li>
                         <a href="[##_rctps_rep_link_##]">[##_rctps_rep_title_##]</a>
                         <span class="cnt">[##_rctps_rep_rp_cnt_##]</span>
-                        <s_rctps_rep_thumbnail>
-                          <img src="[##_rctps_rep_thumbnail_##]" alt="thumbnail-image">
-                        </s_rctps_rep_thumbnail>
-                        <a href="[##_rctps_rep_category_link_##]">[##_rctps_rep_category_##]</a>
+                        
+                        <div class="recentPost_category_related">
+                          <a href="[##_rctps_rep_category_link_##]">[##_rctps_rep_category_##]</a>
+                        </div>
                       </li>
                     </div>
                   </s_rctps_rep>
