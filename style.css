@@ -1,9 +1,7 @@
 @charset "utf-8"
 
 /* Type Selectors Reset */
-ol {
-  list-style-type: none;
-}
+
 html {
   margin: 0;
 }
@@ -124,6 +122,12 @@ a:hover {
   width: 200px;
   height: 800px;
   border: 2px solid #f3ffbd;
+}
+
+/* contents_rp */
+
+.reply_list {
+  list-style: none;
 }
 
 /* category */
