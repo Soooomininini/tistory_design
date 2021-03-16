@@ -46,9 +46,10 @@
             </div>
           </div>
         </header>
+        <!-- container -->
         <div class="container">
           <div class="contents">
-           
+           <!-- contents -->
             <s_article_rep>
               <div class="contents_header">
                 <div class="article_category">
@@ -65,10 +66,13 @@
                   <div class="article_title_date">[##_article_rep_date_##]</div>
                 </div>
               </div>
+              <!-- contents_article -->
               <div class="contents_article">[##_article_rep_desc_##]</div>
+              <!-- contents_rp -->
               <div class="contents_rp">
                 <s_rp>
                   <h5>댓글달아주세요</h5>
+                  <!-- contents_rp_commentList -->
                   <div class="commentList">
                     <s_rp_container>
                       <ol class="reply_list">
@@ -135,6 +139,7 @@
                       </ol>
                     </s_rp_container>
                   </div>
+                  <!-- contents_rp_commentWrite -->
                   <div class="commentWrite">
                     <s_rp_input_form>
                       
@@ -193,21 +198,36 @@
                   </div>
                 </s_rp>
               </div>
-              
+              <!-- contents_notice -->
               <div class="contents_notice">
-              <s_notice_rep>
-                <div class="entryNotice">
-                  <div class="titleWrap">
-                    <h2><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h2>
-                    <span class="date">[##_notice_rep_date_##]</span>
+                <s_notice_rep>
+                  <div class="entryNotice">
+                    <div class="titleWrap">
+                      <h2><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h2>
+                      <span class="date">[##_notice_rep_date_##]</span>
+                    </div>
                   </div>
-                </div>
-              </s_notice_rep>
-            </div>
-            </s_article_rep>
-          </div>
+                </s_notice_rep>
+              </div>
+              <!-- contents_protected -->
+              <div class="contents_protected">
+                <s_article_protected>
+                  <h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+                  <span class="date">[##_article_rep_date_##]</span>
+                  <p>this article is protected. enter password for access</p>
+                  <p>
+                    <label for="[##_article_password_##]">password:</label>
+                    <input type="password" maxlength="16" id="[##_article_password_##]" name="[##_article_password_##]" onkeydown="if (event.keyCode ==13) [##_article_dissolve_##]">
+                    <input type="button" class="submit" value="submit" onclick="[##_article_dissolve_##]">
+                  </p>
+                </s_article_protected>
+              </div>
+          </s_article_rep>
+        </div>
+          <!-- sidebar -->
             <div class="sidebar">
               <s_sidebar>
+                <!-- category -->
                 <s_sidebar_element>
                   <div class="category">
                     <h4>Category</h4>
@@ -229,7 +249,6 @@
                     </div>
                   </s_rct_notice>
                 </s_sidebar_element>
-                
                 <!-- recentPost -->
                 <s_sidebar_element>
                   <h4>Recent Post</h4> 
@@ -248,11 +267,16 @@
                   </s_rctps_rep>
                 </s_sidebar_element>
               </s_sidebar>
+              
             </div>
+            
+            
         </div>
+      
         </div>
-        <div class="footer">footer</div>
+       
       </div>
+      <div class="footer">footer</div>
     </s_t3>
   </body>
 </html>
