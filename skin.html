@@ -9,9 +9,9 @@
     <script src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-1.12.4.min.js"></script>
     <!--fontawesome link-->
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
   </head>
   <body id="[##_body_id_##]">
     <s_t3>
@@ -26,7 +26,6 @@
                 <i class="far fa-envelope-open fa-2x"></i>
               </div>
               <s_search>
-                
                 <input
                   type="text"
                   name="[##_search_name_##]"
@@ -34,14 +33,13 @@
                   onkeypress="if (event.keyCode==13) { [##_search_onclick_submit_##]}"
                   placeholder="Search"
                 />
-              
+
                 <input
-                type="button"
-                value="검색"
-                onclick="[##_search_onclick_submit_##]"
-                class="submit"
-              />
-           
+                  type="button"
+                  value="검색"
+                  onclick="[##_search_onclick_submit_##]"
+                  class="submit"
+                />
               </s_search>
             </div>
           </div>
@@ -49,7 +47,7 @@
         <!-- container -->
         <div class="container">
           <div class="contents">
-           <!-- contents -->
+            <!-- contents -->
             <s_article_rep>
               <div class="contents_header">
                 <div class="article_category">
@@ -79,7 +77,6 @@
                         <s_rp_rep>
                           <li id="[##_rp_rep_id_##]">
                             <div class="[##_rp_rep_class_##]">
-                              
                               <span class="name">[##_rp_rep_name_##]</span>
                               <span class="date">[##_rp_rep_date_##]</span>
                               <span class="control">
@@ -107,7 +104,6 @@
                                 <s_rp2_rep>
                                   <li id="[##_rp_rep_id_##]">
                                     <div class="[##_rp_rep_class_##]">
-                                      
                                       <span class="name"
                                         >[##_rp_rep_name_##]</span
                                       >
@@ -142,7 +138,6 @@
                   <!-- contents_rp_commentWrite -->
                   <div class="commentWrite">
                     <s_rp_input_form>
-                      
                       <s_rp_member>
                         <s_rp_guest>
                           <input
@@ -203,7 +198,11 @@
                 <s_notice_rep>
                   <div class="entryNotice">
                     <div class="titleWrap">
-                      <h2><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h2>
+                      <h2>
+                        <a href="[##_notice_rep_link_##]"
+                          >[##_notice_rep_title_##]</a
+                        >
+                      </h2>
                       <span class="date">[##_notice_rep_date_##]</span>
                     </div>
                   </div>
@@ -212,69 +211,82 @@
               <!-- contents_protected -->
               <div class="contents_protected">
                 <s_article_protected>
-                  <h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+                  <h2>
+                    <a href="[##_article_rep_link_##]"
+                      >[##_article_rep_title_##]</a
+                    >
+                  </h2>
                   <span class="date">[##_article_rep_date_##]</span>
                   <p>this article is protected. enter password for access</p>
                   <p>
                     <label for="[##_article_password_##]">password:</label>
-                    <input type="password" maxlength="16" id="[##_article_password_##]" name="[##_article_password_##]" onkeydown="if (event.keyCode ==13) [##_article_dissolve_##]">
-                    <input type="button" class="submit" value="submit" onclick="[##_article_dissolve_##]">
+                    <input
+                      type="password"
+                      maxlength="16"
+                      id="[##_article_password_##]"
+                      name="[##_article_password_##]"
+                      onkeydown="if (event.keyCode ==13) [##_article_dissolve_##]"
+                    />
+                    <input
+                      type="button"
+                      class="submit"
+                      value="submit"
+                      onclick="[##_article_dissolve_##]"
+                    />
                   </p>
                 </s_article_protected>
               </div>
-          </s_article_rep>
-        </div>
+            </s_article_rep>
+          </div>
           <!-- sidebar -->
-            <div class="sidebar">
-              <s_sidebar>
-                <!-- category -->
-                <s_sidebar_element>
-                  <div class="category">
-                    <h4>Category</h4>
-                    [##_category_##]
+          <div class="sidebar">
+            <s_sidebar>
+              <!-- category -->
+              <s_sidebar_element>
+                <div class="category">
+                  <h4>Category</h4>
+                  [##_category_##]
+                </div>
+              </s_sidebar_element>
+              <!-- notice -->
+              <s_sidebar_element>
+                <s_rct_notice>
+                  <div class="notice">
+                    <h4>Notice</h4>
+                    <ol>
+                      <s_rct_notice_rep>
+                        <li>
+                          <a href="[##_notice_rep_link_##]"
+                            >[##_notice_rep_title_##]</a
+                          >
+                        </li>
+                      </s_rct_notice_rep>
+                    </ol>
                   </div>
-                </s_sidebar_element>
-                <!-- notice -->
-                <s_sidebar_element>
-                  <s_rct_notice>
-                    <div class="notice">
-                      <h4>Notice</h4>
-                      <ul>
-                        <s_rct_notice_rep>
-                          <li>
-                            <a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a>
-                          </li>
-                        </s_rct_notice_rep>
-                      </ul>
+                </s_rct_notice>
+              </s_sidebar_element>
+              <!-- recentPost -->
+              <s_sidebar_element>
+                <h4>Recent Post</h4>
+                <s_rctps_rep>
+                  <div class="recentPost">
+                    <div class="recentPost_article_title">
+                      <a href="[##_rctps_rep_link_##]"
+                        >[##_rctps_rep_title_##]</a
+                      >
+                      <span class="cnt">[##_rctps_rep_rp_cnt_##]</span>
                     </div>
-                  </s_rct_notice>
-                </s_sidebar_element>
-                <!-- recentPost -->
-                <s_sidebar_element>
-                  <h4>Recent Post</h4> 
-                  <s_rctps_rep>
-                    <div class="recentPost">
-                
-                        <div class="recentPost_article_title">
-                          <a href="[##_rctps_rep_link_##]">[##_rctps_rep_title_##]</a>
-                          <span class="cnt">[##_rctps_rep_rp_cnt_##]</span>
-                        </div>
-                        <div class="recentPost_category_related">
-                          <a href="[##_rctps_rep_category_link_##]">[##_rctps_rep_category_##]</a>
-                        </div>
-                      
+                    <div class="recentPost_category_related">
+                      <a href="[##_rctps_rep_category_link_##]"
+                        >[##_rctps_rep_category_##]</a
+                      >
                     </div>
-                  </s_rctps_rep>
-                </s_sidebar_element>
-              </s_sidebar>
-              
-            </div>
-            
-            
+                  </div>
+                </s_rctps_rep>
+              </s_sidebar_element>
+            </s_sidebar>
+          </div>
         </div>
-      
-        </div>
-       
       </div>
       <div class="footer">footer</div>
     </s_t3>
