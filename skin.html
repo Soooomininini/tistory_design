@@ -15,12 +15,17 @@
   </head>
   <body id="[##_body_id_##]">
     <s_t3>
+      <!-- wrap -->
       <div class="wrap">
+        <!-- header -->
         <header id="header">
           <h1><a href="[##_blog_link_##]">[##_title_##]</a></h1>
+          <!-- header_container -->
           <div class="header_container">
             <p>[##_desc_##]</p>
-            <div class="search">
+            <!-- header_search -->
+            <div class="header_search">
+              <!-- social_media -->
               <div class="social_media">
                 <i class="fab fa-github fa-2x"></i>
                 <i class="far fa-envelope-open fa-2x"></i>
@@ -46,15 +51,18 @@
         </header>
         <!-- container -->
         <div class="container">
+          <!-- contents -->
           <div class="contents">
-            <!-- contents -->
             <s_article_rep>
+              <!-- contents_header -->
               <div class="contents_header">
+                <!-- article_category -->
                 <div class="article_category">
                   <a href="[##_article_rep_category_link_##]"
                     ><h6>[##_article_rep_category_##]</h6></a
                   >
                 </div>
+                <!-- article_title -->
                 <div class="article_title">
                   <h5>
                     <a href="[##_article_rep_link_##]"
@@ -69,8 +77,7 @@
               <!-- contents_rp -->
               <div class="contents_rp">
                 <s_rp>
-                  <h5>댓글달아주세요</h5>
-                  <!-- contents_rp_commentList -->
+                  <!-- commentList -->
                   <div class="commentList">
                     <s_rp_container>
                       <ol class="reply_list">
@@ -81,26 +88,25 @@
                               <span class="date">[##_rp_rep_date_##]</span>
                               <span class="control">
                                 <a href="[##_rp_rep_link_##]" class="address"
-                                  >&nbsp;
-                                  <span>reply address</span>
-                                </a>
+                                  >&nbsp;<span>reply address</span></a
+                                >
                                 <a
                                   href=""
                                   onclick="[##_rp_rep_onclick_delete_##]"
                                   class="modify"
-                                  >&nbsp; <span>modify/delete</span></a
+                                  >&nbsp;<span>modify/delete</span></a
                                 >
                                 <a
                                   href=""
                                   onclick="[##_rp_rep_onclick_reply_##]"
                                   class="write"
-                                  >&nbsp; <span>leave a comment</span></a
+                                  >&nbsp;<span>leave a comment</span></a
                                 >
                               </span>
                               <p>[##_rp_rep_desc_##]</p>
                             </div>
                             <s_rp2_container>
-                              <ol class="reply_list">
+                              <ul class="reply_list">
                                 <s_rp2_rep>
                                   <li id="[##_rp_rep_id_##]">
                                     <div class="[##_rp_rep_class_##]">
@@ -114,39 +120,39 @@
                                         <a
                                           href="[##_rp_rep_link_##]"
                                           class="address"
-                                          >&nbsp;
-                                          <span>reply address</span>
-                                        </a>
+                                          >&nbsp;<span>reply address</span></a
+                                        >
                                         <a
                                           href=""
                                           onclick="[##_rp_rep_onclick_delete_##]"
                                           class="modify"
-                                          >&nbsp; <span>modify/delete</span></a
+                                          >&nbsp;<span>modify/delete</span></a
                                         >
                                       </span>
                                       <p>[##_rp_rep_desc_##]</p>
                                     </div>
                                   </li>
                                 </s_rp2_rep>
-                              </ol>
+                              </ul>
                             </s_rp2_container>
                           </li>
                         </s_rp_rep>
                       </ol>
                     </s_rp_container>
                   </div>
-                  <!-- contents_rp_commentWrite -->
-                  <div class="commentWrite">
+                  <!-- commentWrite -->
+                  <div class="commmentWrite">
                     <s_rp_input_form>
                       <s_rp_member>
                         <s_rp_guest>
-                          <input
-                            type="text"
-                            name="[##_rp_input_name_##]"
-                            value="[##_guest_name_##]"
-                          />
-                          <label for="name"> : name</label>
-
+                          <p>
+                            <input
+                              type="text"
+                              name="[##_rp_input_name_##]"
+                              value="[##_guest_name_##]"
+                            />
+                            <label for="name">: name</label>
+                          </p>
                           <p>
                             <input
                               type="password"
@@ -154,6 +160,7 @@
                               name="[##_rp_input_password_##]"
                               value="[##_rp_admin_check_##]"
                             />
+                            it's not used right now :(
                             <label for="password"> : password</label>
                           </p>
                           <p>
@@ -163,7 +170,7 @@
                               name="[##_rp_input_homepage_##]"
                               value="[##_guest_homepage_##]"
                             />
-                            <label for="homepage"> : homepage </label>
+                            <label for="homepage"> :homepage</label>
                           </p>
                         </s_rp_guest>
                         <p class="secretWrap">
@@ -172,7 +179,7 @@
                             name="[##_rp_input_is_secret_##]"
                             class="checkbox"
                           />
-                          <label for="secret"> secret reply</label>
+                          <label for="secret">it's my secret..!</label>
                         </p>
                       </s_rp_member>
                       <p>
@@ -185,7 +192,7 @@
                       <p>
                         <input
                           type="submit"
-                          name="reply"
+                          value="post a comment"
                           onclick="[##_rp_onclick_submit_##]"
                         />
                       </p>

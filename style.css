@@ -59,9 +59,9 @@ a:hover {
   width: 400px;
 }
 
-/* header_container .search */
+/* header_search */
 
-.header_container .search {
+.header_search {
   width: 800px;
   margin-left: 300px;
   margin-top: 1rem;
@@ -72,13 +72,13 @@ a:hover {
   display: inline-block;
 }
 
-.header_container .search input[type="text"] {
+.header_search input[type="text"] {
   width: 200px;
   height: 20px;
   border-radius: 5px;
 }
 
-.header_container .search .submit {
+.header_search .submit {
   width: 20px;
   height: 20px;
 }
