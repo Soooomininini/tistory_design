@@ -10,24 +10,29 @@
     <s_t3>
       <div class="wrap">
         <header id="header">
-          <h1><a href="[##_blog_link_##]">[##_title_##]</a></h1>
-          <p>[##_desc_##]</p>
-          <div class="search">
-            <s_search>
-              <input
-                type="text"
-                name="[##_search_name_##]"
-                value="[##_search_text_##]"
-                onkeypress="if (event.keyCode==13) { [##_search_onclick_submit_##]}"
-              />
-              <input
-                type="button"
-                value="검색"
-                onclick="[##_search_onclick_submit_##]"
-                class="submit"
-              />
-            </s_search>
+          <div class="header_left">
+            <h1><a href="[##_blog_link_##]">[##_title_##]</a></h1>
+            <p>[##_desc_##]</p></div>
+          <div class="header_right">
+            <div class="search">
+              <s_search>
+                <input
+                  type="text"
+                  name="[##_search_name_##]"
+                  value="[##_search_text_##]"
+                  onkeypress="if (event.keyCode==13) { [##_search_onclick_submit_##]}"
+                />
+                <input
+                  type="button"
+                  value="검색"
+                  onclick="[##_search_onclick_submit_##]"
+                  class="submit"
+                />
+              </s_search>
+            </div>
           </div>
+          
+          
         </header>
         <div class="container">
           <div class="contents">
