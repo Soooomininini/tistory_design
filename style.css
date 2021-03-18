@@ -1,9 +1,7 @@
 @charset "utf-8"
 
 /* Type Selectors Reset */
-ul,li {
-  list-style: none;
-}
+
 html {
   margin: 0;
 }
@@ -12,16 +10,21 @@ body {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 a:visited {
   text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: #247ba0;
+  background-color: #f3ffbd;
 }
 
 /* wrap */
 .wrap {
   width: 1440px;
-  padding: 50px;
-  border: solid 10px #011936;
+  padding: 0.8rem;
   position: relative;
   overflow: scroll;
 }
@@ -30,50 +33,127 @@ a:visited {
 
 #header {
   height: 120px;
-  width: 80%;
+  width: 100%;
   background-color: #b5e2fa;
   padding: 10px;
+<<<<<<< HEAD
   display: flex;
+=======
+  border: 1px solid #011936;
+>>>>>>> 2757b6bd42f561fb77cc1ed23ed69e4c0447c93f
 }
 
 #header h1 {
   margin: 0;
-  z-index: 0;
   color: #011936;
 }
-#header a {
-  text-decoration: none;
-}
+
 #header a:visited {
   text-decoration: none;
   color: #011936;
 }
-#header p {
-  margin-right: 0;
+
+/* header_container */
+
+.header_container {
+  display: flex;
 }
 
-#header .search {
-  width: 100px;
-  margin-right: auto;
+.header_container p {
+  width: 400px;
+}
+
+/* header_search */
+
+.header_search {
+  width: 800px;
+  margin-left: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.social_media {
+  display: inline-block;
+}
+
+.header_search input[type="text"] {
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.header_search .submit {
+  width: 20px;
+  height: 20px;
 }
 
 /* container */
 .container {
   display: flex;
-  margin: 0;
+  margin: 30px 0;
 }
 
 /* contents */
+
 .contents {
-  width: 1140px;
+  width: 820px;
+  background-color: #b5e2fa;
+  border: 1px solid #011936;
+  padding: 10px;
+  margin-right: 20px;
 }
-.contents .contents_header a {
-  text-decoration: none;
+
+/* contents_header */
+
+.article_category h5 {
+  margin-block-end: 0;
 }
+
+.article_title {
+  display: flex;
+}
+
+.article_title_date {
+  text-align: center;
+  padding: 1rem 0;
+  margin-left: auto;
+}
+
+/* contents_article */
 
 /* sidebar */
 .sidebar {
-  width: 300px;
+  width: 200px;
   height: 800px;
-  border: 2px solid lightsalmon;
+  border: 2px solid #f3ffbd;
+}
+
+/* contents_rp */
+
+.reply_list {
+  list-style: none;
+}
+
+/* category */
+
+.notice ul {
+  list-style-position: outside;
+}
+
+/* recentPost */
+.recentPost {
+  margin-bottom: 30px;
+}
+.recentPost_article_title a {
+  font-size: 1rem;
+  color: #011936;
+}
+.recentPost_article_title a:hover {
+  color: #247ba0;
+  background-color: #f3ffbd;
+}
+
+.recentPost_category_related a {
+  padding: 10px;
+  font-size: 0.5rem;
 }
