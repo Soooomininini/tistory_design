@@ -76,8 +76,8 @@
               </div>
               <!-- contents_article -->
               <div class="contents_article">[##_article_rep_desc_##]</div>
-              <!-- admin -->
-              <div class="admin">
+              <!-- contents_admin -->
+              <div class="contents_admin">
                 <s_ad_div>
                   <a href="[##_s_ad_m_link_##]">modify</a>
                   <a href="" onclick="[##_s_ad_m_onclick_##]"
@@ -91,6 +91,54 @@
                   >
                   <a href="" onclick="[##_s_ad_d_onclick_##]">delete</a>
                 </s_ad_div>
+              </div>
+              <!-- contents_tag -->
+              <div class="contents_tag">
+                <s_tag_label>
+                  <span class="tagText">tag : </span>[##_tag_label_rep_##]
+                </s_tag_label>
+              </div>
+              <!-- contents_related -->
+              <div class="contents_related">
+                <s_article_related>
+                  <div class="area_related">
+                    <strong class="tit_related"
+                      >'[##_article_rep_category_##]' Related Articles</strong
+                    >
+                    <ul class="list_related">
+                      <s_article_related_rep>
+                        <li class="[##_article_related_rep_type_##]">
+                          <a
+                            href="[##_article_related_rep_link_##]"
+                            class="link-related"
+                          >
+                            <s_article_related_rep_thumbnail>
+                              <span class="thumb_related">
+                                <img
+                                  src="[##_article_related_thumbnail_link_##]"
+                                  class="img_related"
+                                  alt=""
+                                />
+                              </span>
+                            </s_article_related_rep_thumbnail>
+                            <span class="txt_related"
+                              >[##_article_related_rep_title_##]</span
+                            >
+                            <span class="date_related"
+                              >[##_article_related_rep_date_##]</span
+                            >
+                            <span class="frame_related"></span>
+                          </a>
+                        </li>
+                      </s_article_related_rep>
+                    </ul>
+                    <a
+                      href="[##_article_rep_category_link_##]"
+                      class="link_more"
+                      >more</a
+                    >
+                  </div>
+                </s_article_related>
               </div>
               <!-- contents_rp -->
               <div class="contents_rp">
