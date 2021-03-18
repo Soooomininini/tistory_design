@@ -36,11 +36,8 @@ a:hover {
   width: 100%;
   background-color: #b5e2fa;
   padding: 10px;
-<<<<<<< HEAD
-  display: flex;
-=======
   border: 1px solid #011936;
->>>>>>> 2757b6bd42f561fb77cc1ed23ed69e4c0447c93f
+  display: flex;
 }
 
 #header h1 {
@@ -53,24 +50,14 @@ a:hover {
   color: #011936;
 }
 
-/* header_container */
-
-.header_container {
-  display: flex;
-}
-
-.header_container p {
-  width: 400px;
-}
-
 /* header_search */
 
-.header_search {
+/* .header_search {
   width: 800px;
   margin-left: 300px;
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
+} */
 
 .social_media {
   display: inline-block;
