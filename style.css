@@ -53,9 +53,14 @@ a:hover {
 }
 
 /* header_right */
-
+.header_right {
+  margin-left: auto;
+  margin-right: 100px;
+  margin-top: 50px;
+}
 .social_media {
   display: inline-block;
+  margin: 0 5px;
 }
 
 .header_search {
