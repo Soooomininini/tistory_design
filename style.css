@@ -71,7 +71,7 @@ a:hover {
 /* contents */
 
 .contents {
-  width: 820px;
+  width: 1000px;
   background-color: #b5e2fa;
   border: 1px solid #011936;
   padding: 10px;
@@ -98,7 +98,7 @@ a:hover {
 
 /* sidebar */
 .sidebar {
-  width: 200px;
+  width: 220px;
   height: 800px;
   border: 2px solid #f3ffbd;
   margin: 5px;
