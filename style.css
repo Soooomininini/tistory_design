@@ -34,9 +34,9 @@ a:hover {
 #header {
   height: 120px;
   width: 1223px;
-  background-color: #b5e2fa;
+  background-color: #f1f1f1;
   padding: 10px;
-  border: 1px solid #011936;
+  /* border: 1px solid #011936; */
   display: flex;
 }
 
