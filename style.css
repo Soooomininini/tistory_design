@@ -34,22 +34,32 @@ a:hover {
 #header {
   height: 120px;
   width: 1223px;
-  background-color: #f1f1f1;
+  background-size: cover;
+  background-image: url("./beach.jpg");
+  background-color: #247ba0;
   padding: 10px;
-  /* border: 1px solid #011936; */
   display: flex;
 }
 
 /* header_left */
 
-#header h1 {
+.header_left h1 {
   margin: 0;
   color: #011936;
 }
 
-#header a:visited {
+.header_left p {
+  font-family: "Noto Serif KR", serif;
+  font-size: 2rem;
+}
+
+.header_left a:visited {
   text-decoration: none;
   color: #011936;
+}
+
+.header_left a:hover {
+  text-decoration: none;
 }
 
 /* header_right */
