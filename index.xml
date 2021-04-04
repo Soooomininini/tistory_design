@@ -50,6 +50,6 @@
                 <value>40</value>
             </item>
         </liststyle>
-        <contentWidth>820</contentWidth> <!--콘텐츠영역 가로 사이즈, 이 사이즈에 맞춰 에디터의 위지윅이 제대로 구현된다-->
+        <contentWidth>1024</contentWidth> <!--콘텐츠영역 가로 사이즈, 이 사이즈에 맞춰 에디터의 위지윅이 제대로 구현된다-->
     </default>
 </skin>
