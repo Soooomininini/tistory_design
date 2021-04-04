@@ -3,7 +3,6 @@
 /* Type Selectors Reset */
 
 html {
-  margin: 10px;
   width: 100%;
   height: 100%;
 }
@@ -24,14 +23,10 @@ a:hover {
   background-color: #f3ffbd;
 }
 
-/* wrap */
-.wrap {
-  margin: 10px;
-}
-
 /* header */
 
 #header {
+  margin-top: 5%;
   height: 120px;
   width: 1223px;
   background-size: cover;
