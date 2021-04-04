@@ -19,10 +19,6 @@ a:visited {
   text-decoration: none;
   color: black;
 }
-a:hover {
-  color: #247ba0;
-  background-color: #f3ffbd;
-}
 
 /* wrap */
 
@@ -30,7 +26,7 @@ a:hover {
 
 #header {
   margin-top: 3%;
-  height: 300px;
+  height: 400px;
   background-size: cover;
   background-image: url("images/beach2.jfif");
   background-position: 55% 60%;
@@ -41,9 +37,9 @@ a:hover {
 .title h1 {
   margin: 0 auto;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  padding: 2%;
 }
-
 .title a {
   color: #edf9ff;
 }
@@ -54,10 +50,9 @@ a:hover {
   text-align: center;
   margin: 0 auto;
 }
-
 .giphy-embed {
   width: 8%;
-  height: 5%;
+  height: 3%;
   display: block;
   margin: 0 auto;
   text-align: center;
@@ -65,13 +60,16 @@ a:hover {
 }
 
 /* title_bar */
+.title_bar {
+  display: flex;
+  margin: 0 auto;
+}
 .social_media {
-  display: inline-block;
   margin: 0 5px;
 }
 
 .header_search {
-  display: inline-block;
+  width: 10%;
 }
 
 /* container */
