@@ -3,7 +3,7 @@
 🏝🐚🌊  
 tistory skin 1.0   
 바다가 보고 싶은 개발자 스킨     </br></br></br>
-![skin_version](https://img.shields.io/badge/Tistory Skin-1.0-%2365eef1)
+[![skin_version](https://img.shields.io/badge/Tistory Skin-1.0-%2365eef1)]
 
  </br></br>
 
