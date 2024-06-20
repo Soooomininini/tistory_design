@@ -1,8 +1,14 @@
 /* wrap */
 .wrap{
     background-color: #b5e2fa;
+    height: 100%;
 }
 /* header */
+.header{
+    background-image: url(images/beach.jpg);
+    background-size: cover;
+    width: 180px;
+}
 
 /* article */
 
