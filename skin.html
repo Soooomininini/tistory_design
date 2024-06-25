@@ -5,13 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>[##_title_##]</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/0ec032545c.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <s_t3>
         <div class="wrap">
             <div class="header">
-               <a href="[##_blog_link_##]">[##_title_##]</a> 
-               <img src="[##_image_##]" alt="">
+                <div class="header-front">
+                    <a href="[##_blog_link_##]">[##_title_##]</a> 
+                    <img src="[##_image_##]" alt="">
+                </div>
+                <div class="header-back">
+                    <i class="fa-solid fa-envelope fa-3x"></i>
+                    <i class="fa-brands fa-github fa-3x"></i>
+                         
+                    <s_search>
+                        <input type="text" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }"
+                        />
+                        <input value="검색" type="button" onclick="[##_search_onclick_submit_##]" class="submit" />
+                    </s_search>
+                </div>
             </div>
             <div class="article"></div>
             <div class="reply"></div>

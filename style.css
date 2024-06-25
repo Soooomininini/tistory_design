@@ -3,18 +3,22 @@
     background-color: #b5e2fa;
     height: 100%;
 }
+
 /* header */
 .header{
+    
+}
+.header-front{
     background-image: url(images/beach1.jpg);
     background-size: cover;
     height: 180px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+    align-items : center;
 }
 .header a{
     text-decoration: none;
-    font-size: large;
+    font-size: 50px;
     text-align: center;
 
 }
@@ -22,6 +26,21 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
+}
+.header-back{
+    display: flex;
+    justify-content: center;
+}
+.header-back i{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 8px;
+}
+.header-back input{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* article */
