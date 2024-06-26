@@ -44,5 +44,15 @@
 }
 
 /* article */
+.article{
+    display: flex;
+}
+.main{
+   
+}
+.aside{
+    width: 600px;
+    border-left: 2px solid #eee;
+}
 
 /* reply */
